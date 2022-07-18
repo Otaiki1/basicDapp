@@ -1,0 +1,30 @@
+0x49E438fc7b7e799CCdd184633f1F7b43e9a26970
+
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_emotion",
+				"type": "string"
+			}
+		],
+		"name": "setEmotion",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getEmotion",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
