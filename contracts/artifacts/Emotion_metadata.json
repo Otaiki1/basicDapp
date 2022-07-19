@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.2+commit.661d1103"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getEmotion",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_emotion",
+						"type": "string"
+					}
+				],
+				"name": "setEmotion",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Emotion.sol": "Emotion"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Emotion.sol": {
+			"keccak256": "0x847d54f6f1710683a5ce7b9b673287eaea3500d3688c23d29a7a40232ec4ff6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4282d189a928801f3280b4fbc560e575c0f53866913e3d4deccd476769767e1e",
+				"dweb:/ipfs/Qmb8f8LsBCRXadC6jHS9whhUSRZ2cmYzK8gQke1Yr9rNFj"
+			]
+		}
+	},
+	"version": 1
+}
